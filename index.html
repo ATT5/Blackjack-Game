@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Ewert&display=swap" rel="stylesheet">
+    <title>Blackjack Game</title>
+</head>
+<body>
+    <img class="title-cards" src="bj.svg" alt="poker cards">
+    <div class="black-jack">
+        <div class="l-dw">
+            <div class="up">
+                <img src="heart.svg" alt="poker heart" class="icon ">
+            </div>
+            <div class="down">
+                <img src="sword.svg" alt="poker sword" class="icon">
+            </div>
+        </div>
+        <div class="r-dw">
+            <div class="up">
+                <img src="clover.svg" alt="poker clover" class="icon ">
+            </div>
+            <div class="down">
+                <img src="diamond.svg" alt="poker diamond" class="icon">
+            </div>
+        </div>
+        <div class="b-j">
+            <h1 class="blackj">Blackjack</h1>
+            <p id="message-el">Want to play a round?</p>
+            <p id="ycards">Your Cards:</p>
+            <p id="sumy">Sum:</p>
+            <p id="ocards">Opponent Cards:</p>
+            <button class="btn sg" onclick="startGame()">Start Game</button>
+            <button class="btn omc" onclick="oneMore()">One More Card</button><br>
+            <button class="btn ps" onclick="pass()">Pass</button>
+            <button class="btn nw">New Game</button>
+        </div>  
+    </div> 
+    <script src="index.js"></script>
+</body>
+</html>
